@@ -29,7 +29,7 @@ public class Controller {
         TurnResult tr = new TurnResult();
         tr.setTurnNr(currentTurn);
         tr.setGuess(guess);
-        
+
 
         turnsTable.getItems().add(0, tr);
     }
